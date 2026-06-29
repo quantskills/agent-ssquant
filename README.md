@@ -12,6 +12,23 @@
 
 ![SSQuant Agent Map](assets/ssquant-skill-map.svg)
 
+## SSQuant - 专业期货 CTP 量化交易框架
+
+SSQuant（松鼠Quant）是面向中国期货市场的 Python 量化交易框架，支持一套策略代码在 **回测 / SIMNOW 仿真 / CTP 实盘** 三种环境中运行。
+
+它不是只做历史回测的 toy project，而是围绕期货交易的真实工程问题设计：连续合约、复权、换月、保证金、手续费、滑点、CTP 下单、Tick/K 线数据、SIMNOW 验证、实盘运行和回测报告。
+
+| 项目 | 信息 |
+| --- | --- |
+| 当前版本 | v0.4.6 |
+| Python | 3.9 - 3.14 |
+| 上游 License | MIT |
+| GitHub | [songshuquant/ssquant](https://github.com/songshuquant/ssquant) |
+| Gitee | [ssquant/ssquant](https://gitee.com/ssquant/ssquant) |
+| 官网 | [quant789.com](https://quant789.com/) |
+
+> 这里的 MIT License 指 SSQuant 上游框架；本仓库是 QUANTSKILLS Agent 包，许可证以本仓库 [LICENSE](LICENSE) 为准。
+
 ## &#x8FD9;&#x662F;&#x4EC0;&#x4E48;
 
 SSQuant Agent &#x662F;&#x7ED9; AI &#x7F16;&#x7801;&#x4EE3;&#x7406;&#x4F7F;&#x7528;&#x7684; SSQuant &#x671F;&#x8D27;&#x5DE5;&#x4F5C;&#x6D41;&#x5951;&#x7EA6;&#x3002;&#x5B83;&#x4E0D;&#x662F;&#x4E00;&#x5806;&#x7B56;&#x7565;&#x6A21;&#x677F;&#xFF0C;&#x800C;&#x662F;&#x8BA9;&#x4EE3;&#x7406;&#x5728;&#x771F;&#x5B9E;&#x9879;&#x76EE;&#x91CC;&#x6309;&#x6B63;&#x786E;&#x987A;&#x5E8F;&#x505A;&#x4E8B;&#xFF1A;&#x5148;&#x770B;&#x6E90;&#x7801;&#x548C;&#x793A;&#x4F8B;&#xFF0C;&#x518D;&#x5199;&#x7B56;&#x7565;&#xFF0C;&#x518D;&#x8DD1;&#x771F;&#x5B9E;&#x56DE;&#x6D4B;&#xFF0C;&#x6700;&#x540E;&#x7528;&#x62A5;&#x544A;&#x548C;&#x547D;&#x4EE4;&#x8F93;&#x51FA;&#x8BC1;&#x660E;&#x7ED3;&#x679C;&#x3002;
@@ -105,4 +122,4 @@ Agent &#x4E0D;&#x5E94;&#x8BE5;&#x5728;&#x6CA1;&#x6709;&#x547D;&#x4EE4;&#x8F93;&#
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
+This QUANTSKILLS Agent package is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE). The upstream SSQuant framework is distributed under the MIT License.

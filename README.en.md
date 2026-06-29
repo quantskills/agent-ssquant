@@ -12,6 +12,23 @@
 
 ![SSQuant Agent Map](assets/ssquant-skill-map.svg)
 
+## About The Upstream SSQuant Framework
+
+SSQuant is a Python quantitative trading framework for the Chinese futures market. One strategy codebase can run across **backtesting / SIMNOW simulation / CTP live trading**.
+
+It is not a toy project that only runs historical backtests. SSQuant is designed around practical futures-trading engineering problems: continuous contracts, price adjustment, rollover, margin, commission, slippage, CTP order routing, Tick/K-line data, SIMNOW verification, live runtime, and backtest reports.
+
+| Item | Value |
+| --- | --- |
+| Current version | v0.4.6 |
+| Python | 3.9 - 3.14 |
+| Upstream license | MIT |
+| GitHub | [songshuquant/ssquant](https://github.com/songshuquant/ssquant) |
+| Gitee | [ssquant/ssquant](https://gitee.com/ssquant/ssquant) |
+| Website | [quant789.com](https://quant789.com/) |
+
+> The MIT license above refers to the upstream SSQuant framework. This repository is a QUANTSKILLS Agent package and is licensed separately; see [LICENSE](LICENSE).
+
 ## What It Covers
 
 | Lane | Purpose |
@@ -73,4 +90,4 @@ The agent should not claim success without concrete evidence: command output, re
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
+This QUANTSKILLS Agent package is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE). The upstream SSQuant framework is distributed under the MIT License.
