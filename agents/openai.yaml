@@ -1,0 +1,3 @@
+display_name: SSQuant Agent
+short_description: Futures-focused SSQuant agent workflow for strategy, data_server, CTP, and report work.
+default_prompt: Use SSQuant Agent to locate the active SSQuant project, inspect local examples, choose the correct lane, validate StrategyAPI usage, and produce evidence-backed SSQuant results.

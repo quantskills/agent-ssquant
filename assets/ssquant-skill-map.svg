@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">SSQuant Agent map</title>
+  <desc id="desc">One agent workflow routes SSQuant tasks to futures, data, CTP, and reporting lanes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#102033"/>
+      <stop offset="0.56" stop-color="#132f3a"/>
+      <stop offset="1" stop-color="#1d3b2f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#4cc9f0"/>
+      <stop offset="1" stop-color="#72efdd"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="560" rx="28" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1">
+    <path d="M0 110H1200M0 220H1200M0 330H1200M0 440H1200"/>
+    <path d="M150 0V560M300 0V560M450 0V560M600 0V560M750 0V560M900 0V560M1050 0V560"/>
+  </g>
+  <text x="68" y="88" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700">SSQuant Agent</text>
+  <text x="70" y="126" fill="#b9d8e3" font-family="Segoe UI, Arial, sans-serif" font-size="19">One repository for futures strategy, data_server, CTP gates, and Chinese reporting.</text>
+  <g filter="url(#shadow)">
+    <rect x="72" y="190" width="260" height="150" rx="18" fill="#ffffff" fill-opacity="0.96"/>
+    <text x="104" y="238" fill="#102033" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">AGENTS.md</text>
+    <text x="104" y="274" fill="#38505d" font-family="Segoe UI, Arial, sans-serif" font-size="18">Agent entry</text>
+    <text x="104" y="306" fill="#38505d" font-family="Segoe UI, Arial, sans-serif" font-size="18">Lane routing</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="418" y="190" width="260" height="150" rx="18" fill="#ffffff" fill-opacity="0.96"/>
+    <text x="450" y="238" fill="#102033" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">compat SKILL.md</text>
+    <text x="450" y="274" fill="#38505d" font-family="Segoe UI, Arial, sans-serif" font-size="18">Local bridge</text>
+    <text x="450" y="306" fill="#38505d" font-family="Segoe UI, Arial, sans-serif" font-size="18">Evidence and live gates</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="764" y="190" width="360" height="150" rx="18" fill="#ffffff" fill-opacity="0.96"/>
+    <text x="796" y="238" fill="#102033" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">references/ + scripts/</text>
+    <text x="796" y="274" fill="#38505d" font-family="Segoe UI, Arial, sans-serif" font-size="18">Focused guides</text>
+    <text x="796" y="306" fill="#38505d" font-family="Segoe UI, Arial, sans-serif" font-size="18">Doctor and strategy validator</text>
+  </g>
+  <g stroke="url(#accent)" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M332 265H418"/>
+    <path d="M678 265H764"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">
+    <rect x="120" y="410" width="200" height="54" rx="14" fill="#4cc9f0"/><text x="154" y="445" fill="#062230">Futures Backtest</text>
+    <rect x="370" y="410" width="190" height="54" rx="14" fill="#72efdd"/><text x="414" y="445" fill="#062230">Data Server</text>
+    <rect x="610" y="410" width="190" height="54" rx="14" fill="#a7f3d0"/><text x="662" y="445" fill="#062230">CTP Gate</text>
+    <rect x="850" y="410" width="190" height="54" rx="14" fill="#f9d77e"/><text x="901" y="445" fill="#2d2508">Reports</text>
+  </g>
+</svg>
