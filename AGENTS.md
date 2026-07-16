@@ -20,6 +20,17 @@ quantSkills:
   summary_en: SSQuant Agent workflow for futures strategies, data services, CTP gates, and Chinese reports.
 ---
 
+```json qsh-form
+{
+  "version": 1,
+  "task": {
+    "placeholder": "描述要处理的 SSQuant 任务，例如策略编写、回测、数据服务诊断、报告检查或 CTP/SIMNOW 状态核查",
+    "required": true
+  },
+  "prompt_template": "{{#task}}任务与材料：\n{{task}}\n\n{{/task}}{{#attachments}}用户上传的材料（已放入工作区）：\n{{attachments}}\n\n{{/attachments}}按 SSQuant Agent 工作流定位准确项目并处理任务，明确策略、数据服务、回测报告与 CTP/SIMNOW 的边界，使用可核验产物证明结果；未经用户明确授权不得启动实盘或执行订单，输出中文报告。"
+}
+```
+
 # SSQuant Agent Contract
 
 This repository is the SSQuant Agent workflow for futures-focused SSQuant work. The root `AGENTS.md` is the QUANTSKILLS agent declaration and execution contract. The optional `skills/ssquant/SKILL.md` file is only a compatibility bridge for runtimes that still discover capabilities through a local skill directory.
